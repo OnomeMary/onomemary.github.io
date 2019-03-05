@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(3.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+.jumbotron {
+  	background-color: transparent !important;
+  	margin-top: 20px;
+}
+
+
+.btn {
+  	background-color: /*#520430; */ #C9689F;
+  	border-radius: 50px;
+  	color: white;
+  	margin: 50px 450px;
+    width: 150px;
+}
+
+.btn:hover {
+	width: 200px;
+	transition: 1s ease-in-out;
+	background-color: #AE9BA5;
+	color: white;
+	cursor: pointer;
+
+}
